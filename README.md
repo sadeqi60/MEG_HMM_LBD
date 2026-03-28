@@ -8,7 +8,7 @@
 ## Graphical Abstract
 
 <p align="center">
-  <img src="visual_abstract.tif" alt="Graphical Abstract - Dynamic brain states and cognitive fluctuations in Lewy body dementia" width="85%">
+  <img src="visual_abstract.png" alt="Graphical Abstract - Dynamic brain states and cognitive fluctuations in Lewy body dementia" width="85%">
 </p>
 
 ## Research Pipeline (Step-by-Step)
