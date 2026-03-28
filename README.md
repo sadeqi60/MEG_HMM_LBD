@@ -5,8 +5,6 @@
 **Dynamic, State-dependent Characteristics of Cognitive Fluctuations in Lewy Body Dementia: A MEG Study**  
 *(Sadeqi et al., 2026 — submitted to Brain Communications)*
 
-This repository contains all custom code used to preprocess, model, and visualize the resting-state MEG data in the study. It reproduces the key results: hidden Markov model (HMM) brain states, state-dependent spectral slowing (theta/beta ratio), group differences, and clinical correlations with cognitive fluctuations (CAF, MFS, ODF).
-
 ---
 
 ## Research Pipeline (Step-by-Step)
@@ -43,12 +41,15 @@ This repository contains all custom code used to preprocess, model, and visualiz
 ### Core Toolboxes
 
 - **osl-ephys** — preprocessing and source reconstruction  
-  van Es, M. W. J., et al. (2025). *osl-ephys: a Python toolbox for the analysis of electrophysiology data*. Frontiers in Neuroscience.  
+  van Es, M. W. J., et al. (2025). *osl-ephys: a Python toolbox for the analysis of electrophysiology data*. Frontiers in Neuroscience.
+  https://doi.org/10.3389/fnins.2025.1522675 
   Documentation: [osl-ephys.readthedocs.io](https://osl-ephys.readthedocs.io/)
+  GitHub:[https://github.com/OHBA-analysis/osl-ephys](https://github.com/OHBA-analysis/osl-ephys)
 
 - **osl-dynamics** — TDE-HMM and dynamic network analysis  
   Gohil, C., Huang, R., Roberts, E., van Es, M. W., Quinn, A. J., Vidaurre, D., & Woolrich, M. W. (2024). *osl-dynamics, a toolbox for modeling fast dynamic brain activity*. eLife, 12, RP91949.  
-  https://doi.org/10.7554/eLife.91949  
+  https://doi.org/10.7554/eLife.91949
+  Documentation: [https://osl-dynamics.readthedocs.io/en/latest/](https://osl-dynamics.readthedocs.io/en/latest/)  
   GitHub: [github.com/OHBA-analysis/osl-dynamics](https://github.com/OHBA-analysis/osl-dynamics)
 
 ### Visualization
@@ -57,9 +58,5 @@ This repository contains all custom code used to preprocess, model, and visualiz
   Mowinckel, A. M., & Vidal-Piñeiro, D. (2020). Visualisation of Brain Statistics with R-packages ggseg and ggseg3d. *Advances in Methods and Practices in Psychological Science*.  
   https://doi.org/10.1177/2515245920928009  
   CRAN: [cran.r-project.org/package=ggseg](https://cran.r-project.org/package=ggseg)
-
-### Additional Dependencies
-- Python: MNE-Python, NumPy, SciPy, osl-ephys, osl-dynamics  
-- R: tidyverse, ggseg, ggseg3d, RColorBrewer, patchwork
 
 ---
