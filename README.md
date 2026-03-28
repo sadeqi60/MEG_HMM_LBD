@@ -5,6 +5,12 @@
 **Dynamic, State-dependent Characteristics of Cognitive Fluctuations in Lewy Body Dementia: A MEG Study**  
 *(Sadeqi et al., 2026 — submitted to Brain Communications)*
 
+## Graphical Abstract
+
+<p align="center">
+  <img src="visual_abstract.tif" alt="Graphical Abstract - Dynamic brain states and cognitive fluctuations in Lewy body dementia" width="85%">
+</p>
+
 ## Research Pipeline (Step-by-Step)
 
 1. **MEG Data Acquisition & Preprocessing**  
