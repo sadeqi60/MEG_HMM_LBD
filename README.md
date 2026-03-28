@@ -5,8 +5,6 @@
 **Dynamic, State-dependent Characteristics of Cognitive Fluctuations in Lewy Body Dementia: A MEG Study**  
 *(Sadeqi et al., 2026 — submitted to Brain Communications)*
 
----
-
 ## Research Pipeline (Step-by-Step)
 
 1. **MEG Data Acquisition & Preprocessing**  
@@ -34,21 +32,19 @@
    - Nonparametric permutation tests and Spearman correlations (5,000 permutations)  
    - **All statistical visualizations and brain-surface maps generated in R** using `ggseg` and custom `geom_brain` functions.
 
----
-
 ## Software & Citations
 
 ### Core Toolboxes
 
 - **osl-ephys** — preprocessing and source reconstruction  
   van Es, M. W. J., et al. (2025). *osl-ephys: a Python toolbox for the analysis of electrophysiology data*. Frontiers in Neuroscience.
-  https://doi.org/10.3389/fnins.2025.1522675 
+  https://doi.org/10.3389/fnins.2025.1522675   
   Documentation: [osl-ephys.readthedocs.io](https://osl-ephys.readthedocs.io/)
   GitHub:[https://github.com/OHBA-analysis/osl-ephys](https://github.com/OHBA-analysis/osl-ephys)
 
 - **osl-dynamics** — TDE-HMM and dynamic network analysis  
   Gohil, C., Huang, R., Roberts, E., van Es, M. W., Quinn, A. J., Vidaurre, D., & Woolrich, M. W. (2024). *osl-dynamics, a toolbox for modeling fast dynamic brain activity*. eLife, 12, RP91949.  
-  https://doi.org/10.7554/eLife.91949
+  https://doi.org/10.7554/eLife.91949  
   Documentation: [https://osl-dynamics.readthedocs.io/en/latest/](https://osl-dynamics.readthedocs.io/en/latest/)  
   GitHub: [github.com/OHBA-analysis/osl-dynamics](https://github.com/OHBA-analysis/osl-dynamics)
 
@@ -59,4 +55,3 @@
   https://doi.org/10.1177/2515245920928009  
   CRAN: [cran.r-project.org/package=ggseg](https://cran.r-project.org/package=ggseg)
 
----
