@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/your-doi-here.svg)](https://doi.org/your-doi-here)  
 **Repository for the manuscript:**  
 **Dynamic, State-dependent Characteristics of Cognitive Fluctuations in Lewy Body Dementia: A MEG Study**  
-*(Hojjatollah Sadeqi et al., 2026 — submitted to Brain Communications)*
+*(Sadeqi et al., 2026 — submitted to Brain Communications)*
 
 This repository contains all custom code used to preprocess, model, and visualize the resting-state MEG data in the study. It reproduces the key results: hidden Markov model (HMM) brain states, state-dependent spectral slowing (theta/beta ratio), group differences, and clinical correlations with cognitive fluctuations (CAF, MFS, ODF).
 
